@@ -1,0 +1,25 @@
+/* Establecer la fuente Old English Text MT para los títulos principales */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Old English Text MT', cursive;
+}
+
+/* Personalizar el color de los botones */
+.btn {
+    background-color: #E90E0E; /* Cambiar el fondo de los botones */
+    border-color: #E90E0E; /* Cambiar el borde de los botones */
+}
+
+.btn:hover {
+    background-color: #C20808; /* Color cuando el botón está en hover */
+    border-color: #C20808; /* Borde cuando el botón está en hover */
+}
+
+/* Establecer un color de texto blanco para los enlaces en el footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
